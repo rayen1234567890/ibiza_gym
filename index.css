@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #050505;
+    color: #ffffff;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Barlow Condensed', sans-serif;
+  }
+}
+
+/* Bold Typography Custom Utilities */
+.font-impact {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: -0.03em;
+}
+
+.text-cyan-neon {
+  color: #00E5FF;
+}
+
+.bg-cyan-neon {
+  background-color: #00E5FF;
+}
+
+.border-cyan-neon {
+  border-color: #00E5FF;
+}
+
+.border-white-10 {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.tracking-ultra {
+  letter-spacing: 0.3em;
+}
+
+.tracking-mega {
+  letter-spacing: 0.4em;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+::-webkit-scrollbar-thumb {
+  background: #222222;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00E5FF;
+}
