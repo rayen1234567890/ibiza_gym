@@ -1,0 +1,6 @@
+{
+  "name": "IBIZA GYM - Ben Arous",
+  "description": "Official website for IBIZA GYM in Mégrine, Ben Arous featuring exclusive equipment, class schedules, opening hours, interactive maps, and contact information.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
